@@ -1,0 +1,42 @@
+body {
+    background-image: url(../images/background-3.png);
+    background-size:cover;
+    height: 100vh; 
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+h4 {
+    text-align: center;
+}
+
+.card {
+    height: 30rem;
+    width: 60rem;
+    padding-top: 30px;
+}
+
+.temp-row {
+    justify-content: center;
+    align-self: center;
+    
+}
+
+.btn-icon {
+    height: 3rem;
+    align-self: center;
+}
+
+.temp-btn {
+    margin-top: 2rem;
+}
+
+#output{
+    border: 1px solid #666666;
+    padding: 2px;
+    width: 485px;
+    height: 29px;
+    /* text-align: center; */
+    display: inline-block;
+    justify-content: center;
+}
