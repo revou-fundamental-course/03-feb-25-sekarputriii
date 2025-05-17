@@ -1,42 +1,102 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../assets/Montserrat-Regular.otf') format('Montserrat'),
+}
+
+.container-fluid {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+
+}
+
 body {
-    background-image: url(../images/background-3.png);
-    background-size:cover;
-    height: 100vh; 
-    background-repeat: no-repeat;
-    background-position: center center;
+    font-family: 'Montserrat' !important;
 }
 
-h4 {
-    text-align: center;
-}
+.calc-row {
+    border-radius: 3%;
+    background-color: #ffffff;
+    padding: 3rem;
+    margin-left: 0 !important;
+    margin-right: 0  !important;
 
-.card {
-    height: 35rem;
-    width: 60rem;
-    padding-top: 30px;
 }
 
 .temp-row {
-    justify-content: center;
-    align-self: center;
-    
+    background-color: #f9f9f9;
+    color: #4d9ff1;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+
 }
 
 .btn-icon {
-    height: 3rem;
+    height: 1.5rem;
     align-self: center;
 }
 
 .temp-btn {
     margin-top: 2rem;
+    background-color: #ff58d2 !important;
+    color: #ffffff !important;
 }
 
-#output{
-    border: 1px solid #666666;
-    padding: 2px;
-    width: 485px;
-    height: 30px;
-    /* text-align: center; */
-    display: inline-block;
+.form-control {
+    height: 3rem;
+}
+
+.card {
+    background-color: #ffffff !important;
+    color: #66b2ff;
+    border-radius: 1rem !important;
+    padding: 3rem;
+}
+
+.calc-card {
+    color: #66b2ff;
+    border-radius: 1rem !important;
+    padding: 3rem;
+    border-color: transparent !important;
+}
+
+.calc-card a {
+    text-align: center;
+    margin: 0.5rem;
+}
+
+.result {
+    height: 3rem;
+}
+
+.result-card {
+    background-color: #edf7ff !important;
+    color: #66b2ff;
+    border-radius: 1rem !important;
+    padding: 3rem;
+    border-color: transparent !important;
+}
+
+.form-card {
+    margin-top: 2rem;
+    box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.1);
+    border-color: #fafafa !important;
+}
+
+#inputText, #explain {
+    font-size: 1.4rem;
+}
+
+#term-icon {
+    height: 5rem;
+}
+
+.term-icon {
+    display: flex;
     justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.text-row {
+    padding: 1.5rem;
 }
