@@ -28,13 +28,17 @@ if (isCelsiusToFahrenheit) {
     // Convert Celsius to Fahrenheit
     result = (input * 9 / 5) + 32;
     document.getElementById("output").innerText = result.toFixed(2) + "°F";
-    document.getElementById("explain").innerText = "Calculation :" + input + "°C = (" + input + "°C x 9/5) + 32 =" + result.toFixed(2) + "°F";
+    document.getElementById("explain").innerText = "(S(°C) x 9/5) + 32 = (" + input + "°C x 9/5) + 32 =" + result.toFixed(2) + "°F";
+    document.getElementById("inputText").innerText = input + "°C";
+    document.getElementById("outputText").innerText = result.toFixed(2) + "°F";
     return;
 } else {
     // Convert Fahrenheit to Celsius
     result = (input - 32) * 5 / 9;
     document.getElementById("output").innerText = result.toFixed(2) + "°C";
-    document.getElementById("explain").innerText = "Calculation :" + input + "°F = (" + input + "°F - 32) x 5/9 =" + result.toFixed(2) + "°C";
+    document.getElementById("explain").innerText = "(S(°C) x 5/9) + 32 = (" + input + "°F - 32) x 5/9 =" + result.toFixed(2) + "°C";
+    document.getElementById("inputText").innerText = input + "°F";
+    document.getElementById("outputText").innerText = result.toFixed(2) + "°C";
     return;
 }
 }
