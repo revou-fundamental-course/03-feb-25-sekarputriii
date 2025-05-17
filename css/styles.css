@@ -16,7 +16,7 @@ body {
 .calc-row {
     border-radius: 3%;
     background-color: #ffffff;
-    padding: 3rem;
+    padding: 2rem;
     margin-left: 0 !important;
     margin-right: 0  !important;
 
@@ -49,13 +49,11 @@ body {
     background-color: #ffffff !important;
     color: #66b2ff;
     border-radius: 1rem !important;
-    padding: 3rem;
 }
 
 .calc-card {
     color: #66b2ff;
     border-radius: 1rem !important;
-    padding: 3rem;
     border-color: transparent !important;
 }
 
@@ -77,9 +75,10 @@ body {
 }
 
 .form-card {
-    margin-top: 2rem;
+    margin-top: 1rem;
     box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.1);
     border-color: #fafafa !important;
+    padding: 2rem;
 }
 
 #inputText, #explain {
@@ -87,7 +86,7 @@ body {
 }
 
 #term-icon {
-    height: 5rem;
+    height: 4.5rem;
 }
 
 .term-icon {
@@ -98,5 +97,5 @@ body {
 }
 
 .text-row {
-    padding: 1.5rem;
+    padding: 1.2rem;
 }
